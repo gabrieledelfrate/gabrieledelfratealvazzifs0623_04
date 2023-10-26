@@ -1,0 +1,119 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    width: 460px;
+    min-width: 50%;
+    max-width: 460px;
+    height: auto;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    background-image: url("assets/img/sfondo.png");
+}
+/* HEADER */
+header{
+    width: 400px;
+    min-width: 50%;
+    max-width: 400px;
+    height: 50vh;
+    min-height: 30%;
+    max-height: 200px;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-style: hidden;
+    background: rgb(40,62,157);
+    background: linear-gradient(0deg, rgba(40,62,157,1) 92%, rgba(25,82,105,1) 100%);
+    text-align: center;
+    line-height: 150%;
+}
+header img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+header p{
+    text-transform: uppercases;
+    color: white;
+}
+header ul li a{
+    text-transform: uppercase;
+    text-decoration: none ;
+    color: white;
+}
+/* MAIN */
+main{
+    width: 400px;
+    min-width: 50%;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+main article h1{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+main #autoredata{
+    color: gray;
+}
+
+main article ul li{
+    list-style: inside;
+}
+main article ol li{
+    list-style: decimal inside;
+}
+main article ul li code{
+    border-style: solid;
+    border-radius: 10%;
+    border-color: rgb(16, 6, 26);
+    background-color: aqua;
+    color: black;
+}
+main article iframe{
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-right: auto;
+    border-radius: 10%;
+}
+/* TABELLE */
+main article table{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+
+}
+main article table caption{
+    text-align: center;
+}
+main article section{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* FORM */
+main article section h2{
+    text-align: center;
+    font-size: x-large;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2{
+    text-align: center;
+    font-size: x-large;
+    
+}
+/* FOOTER */
+footer{
+   
+}
